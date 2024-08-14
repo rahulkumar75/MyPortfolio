@@ -2,6 +2,8 @@ import React from "react";
 import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md"; // ">"
 import { Link } from "react-scroll";
+// import {ReactTyped} from "react-typed"
+
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
+            {/* <br/>
+            <ReactTyped strings={["Full Stack Developer","Programmer"]} typeSpeed={40} backSpeed={50} loop></ReactTyped> */}
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I'm a recent graduate from BIT Mesra and a passionate Full Stack Developer with expertise in the MERN stack.
