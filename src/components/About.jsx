@@ -16,7 +16,7 @@ const About = () => {
         <p className="text-xl mt-20">
         Hello! I’m a passionate Full Stack Developer with a solid foundation in web development, 
         specializing in creating dynamic and responsive applications. As a recent graduate from BIT Mesra, 
-        I’ve honed my skills in JavaScript, React.js, and the MERN stack. My experience spans in both front-end and back-end development, 
+        I’ve developed my skills in JavaScript, React.js, and the MERN stack. My experience spans in both front-end and back-end development, 
         where I strive to build seamless and user-friendly interfaces combined with robust backend logic.
         </p>
 
