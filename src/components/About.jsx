@@ -30,9 +30,10 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        {/* <p className="text-xl">
         I’m excited to continue growing as a developer, embracing new challenges, and contributing to innovative projects.
-        </p>
+        </p> */}
+        {/*Boom Boom */}
       </div>
     </div>
   );
