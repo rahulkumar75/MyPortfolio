@@ -6,9 +6,11 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
+
+
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
       <Home />
       <About />
@@ -16,7 +18,7 @@ function App() {
       <Experience />
       <Contact />
       <SocialLinks />
-    </div>
+    </>
   );
 }
 
