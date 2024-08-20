@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="bg-gradient-to-b from-gray-800 to-black w-full pt-20 pb-10 text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
         Hello! I’m a passionate Full Stack Developer with a solid foundation in web development, 
         specializing in creating dynamic and responsive applications. As a recent graduate from BIT Mesra, 
         I’ve developed my skills in JavaScript, React.js, and the MERN stack. My experience spans in both front-end and back-end development, 
