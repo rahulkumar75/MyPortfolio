@@ -45,6 +45,13 @@ const NavBar = () => {
             </Link> 
           </li>
         ))}
+        <li
+          className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+        >
+          <a href="/resume.pdf" download>
+            Resume
+          </a>
+        </li>
       </ul>
 
       <div
@@ -71,6 +78,13 @@ const NavBar = () => {
               </Link>
             </li>
           ))}
+          <li
+            className="px-4 cursor-pointer capitalize py-6 text-4xl"
+          >
+            <a href="/resume.pdf" download onClick={() => setNav(!nav)}>
+              Resume
+            </a>
+          </li>
         </ul>
       )}
     </div>
