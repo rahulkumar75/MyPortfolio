@@ -13,7 +13,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center md:text-left">
             I'm a Full Stack Developer
             {/* <br/>
             <ReactTyped strings={["Full Stack Developer","Programmer"]} typeSpeed={40} backSpeed={50} loop></ReactTyped> */}
@@ -44,7 +44,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-3xl mx-auto w-2/3 md:w-full "
           />
         </div>
       </div>
@@ -53,7 +53,6 @@ const Home = () => {
 };
 
 export default Home;
-
 
 
 
