@@ -7,6 +7,16 @@ import reactImage from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import node from "../assets/node.png";
+import restapi from "../assets/restapi.png"
+import postman from "../assets/postman.png"
+import docker from "../assets/docker.png"
+import bootstrap from "../assets/bootstrap.png"
+import mongodb from "../assets/mongodb.png"
+import mysql from "../assets/mysql.png"
+// import nlp_ai_ml from "../assets/nlp_ai_ml.png"
+import redux from "../assets/redux.png"
+import appwrite from "../assets/appwrite.png"
 
 const Experience = () => {
   const techs = [
@@ -14,7 +24,7 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "shadow-orange-700",
     },
     {
       id: 2,
@@ -38,7 +48,7 @@ const Experience = () => {
       id: 5,
       src: tailwind,
       title: "Tailwind",
-      style: "shadow-sky-400",
+      style: "shadow-blue-300",
     },
     {
       id: 6,
@@ -51,6 +61,66 @@ const Experience = () => {
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
+    },
+    {
+      id: 7,
+      src: node,
+      title: "Node.js",
+      style: "shadow-green-400",
+    },
+    {
+      id: 8,
+      src: postman,
+      title: "Postman",
+      style: "shadow-orange-800",
+    },
+    {
+      id: 9,
+      src: restapi,
+      title: "Rest API",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 10,
+      src: docker,
+      title: "Docker",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 11,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-purple-300",
+    },
+    {
+      id: 12,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 14,
+      src: mysql,
+      title: "MY SQL",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 16,
+      src: appwrite,
+      title: "Appwrite",
+      style: "shadow-pink-400",
+    },
+    // {
+    //   id: 17,
+    //   src: nlp_ai_ml,
+    //   title: "NLP",
+    //   style: "shadow-red-400",
+    // },
+    {
+      id: 18,
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-400",
     },
   ];
 
