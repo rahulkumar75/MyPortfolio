@@ -1,5 +1,4 @@
 import React from "react";
-
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -63,37 +62,37 @@ const Experience = () => {
       style: "shadow-gray-400",
     },
     {
-      id: 7,
+      id: 8,
       src: node,
       title: "Node.js",
       style: "shadow-green-400",
     },
     {
-      id: 8,
+      id: 9,
       src: postman,
       title: "Postman",
       style: "shadow-orange-800",
     },
     {
-      id: 9,
+      id: 10,
       src: restapi,
       title: "Rest API",
       style: "shadow-blue-600",
     },
     {
-      id: 10,
+      id: 11,
       src: docker,
       title: "Docker",
       style: "shadow-blue-400",
     },
     {
-      id: 11,
+      id: 12,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-purple-300",
     },
     {
-      id: 12,
+      id: 13,
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-400",
@@ -105,19 +104,19 @@ const Experience = () => {
       style: "shadow-blue-400",
     },
     {
-      id: 16,
+      id: 15,
       src: appwrite,
       title: "Appwrite",
       style: "shadow-pink-400",
     },
     // {
-    //   id: 17,
+    //   id: 16,
     //   src: nlp_ai_ml,
     //   title: "NLP",
     //   style: "shadow-red-400",
     // },
     {
-      id: 18,
+      id: 17,
       src: redux,
       title: "Redux",
       style: "shadow-purple-400",
