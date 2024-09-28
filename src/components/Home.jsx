@@ -1,8 +1,8 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.jpg";
+import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md"; // ">"
-import { Link } from "react-scroll";
-// import {ReactTyped} from "react-typed"
+// import { Link } from "react-scroll";
+// import {ReactTyped} from "react-typed";
 
 
 const Home = () => {
@@ -26,17 +26,16 @@ const Home = () => {
           </p>
 
           <div>
-            <Link
-              to="portfolio"
-              smooth
-              duration={500}
+            <a
+              href="/resume.pdf"
+              download
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
-              Portfolio
+              Download Resume
               <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" /> 
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </Link>
+            </a>
           </div>
         </div>
 
