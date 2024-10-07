@@ -1,6 +1,7 @@
 import React from "react";
 import DataTable from "../assets/portfolio/DataTable.png";
 import Nqueen from "../assets/portfolio/Nqueen.png";
+import NoteKeeper from "../assets/portfolio/NoteKeeper.png";
 import TaskManagement from "../assets/portfolio/TaskManagement.jpg";
 import Ai_Virtual_Voice_Assistant from "../assets/portfolio/Ai_Virtual_Voice_Assistant.png";
 import Steganography from "../assets/portfolio/Steganography.png";
@@ -8,8 +9,18 @@ import Steganography from "../assets/portfolio/Steganography.png";
 const Portfolio = () => {
   const portfolios = [
 
+
     {
       id: 1,
+      src: NoteKeeper,
+      demoLink: "https://note-keeper-ui.vercel.app/login",
+      codeLink: "https://github.com/rahulkumar75/NoteKeeper",
+      title: "NoteKeeper",
+      discription:
+        "Developed a modern note management application, using a MERN Stack that allows users to create, edit, pin, search and organize notes securely.."
+    },
+    {
+      id: 2,
       src: Steganography,
       demoLink: "https://stegoimage.netlify.app/",
       codeLink: "https://github.com/rahulkumar75/Steganography",
@@ -18,7 +29,7 @@ const Portfolio = () => {
         "This web-based tool enables users to securely encrypt and decrypt text messages within images. Utilizing the CryptoJS library for AES encryption, the project includes features for image preview, encoding messages into images, and decoding them back."
     },
     {
-      id: 2,
+      id: 3,
       src: Nqueen,
       demoLink: "https://n-queens-solver-one.vercel.app/",
       codeLink: "https://github.com/rahulkumar75/N-Queens-Solver",
@@ -27,7 +38,7 @@ const Portfolio = () => {
         "A web-based application developed to solve and visually represent the N-Queens problem. The tool allows users to place N queens on an N×N chessboard such that no two queens threaten each other, showcasing algorithmic problem-solving skills."
     },
     {
-      id: 3,
+      id: 4,
       src: Ai_Virtual_Voice_Assistant,
       demoLink: "",
       codeLink: "https://github.com/rahulkumar75/Ai_Virtual_Voice_Assistant",
@@ -36,7 +47,7 @@ const Portfolio = () => {
         "An AI-powered virtual assistant that uses natural language processing (NLP) and deep learning to understand and respond to user commands. It can perform tasks ranging from simple queries to more complex operations like searching the internet and sending emails."
     },
     {
-      id: 4,
+      id: 5,
       src: DataTable,
       demoLink: "https://data-table-lac.vercel.app/",
       codeLink: "https://github.com/rahulkumar75/Data-Table",
@@ -45,7 +56,7 @@ const Portfolio = () => {
         "Designed to manage and display a collection of user data, this application offers functionality for adding, editing, deleting, and searching user entries. It also features pagination for efficient navigation through large datasets."
     },
     {
-      id: 5,
+      id: 6,
       src: TaskManagement,
       demoLink: "",
       codeLink: "https://github.com/rahulkumar75/Task-Management",
